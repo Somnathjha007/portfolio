@@ -167,7 +167,7 @@ const Portfolio = () => {
                 <div className="mb-6">
                   <div className="w-full h-64 bg-gradient-to-br from-green-400/20 to-blue-400/20 rounded-2xl flex items-center justify-center mb-4 overflow-hidden">
                     {/* Replace the src with your actual photo path */}
-                    <img 
+                    <img
                       src="Pro_Profile_pic.jpg" 
                       alt="Somnath Jha" 
                       className="w-full h-full object-cover"
@@ -210,13 +210,13 @@ const Portfolio = () => {
               <div className="mb-8">
                 <div className="border-2 border-dashed border-green-400/30 rounded-lg p-4 inline-block mb-6">
                   <h2 className="text-2xl md:text-3xl text-white">
-                    Hello! I'm <span className="text-green-400">AI/ML Engineer</span>
+                    {"Hello! I'm "}<span className="text-green-400">AI/ML Engineer</span>
                   </h2>
                 </div>
               </div>
 
               <p className="text-lg text-gray-400 leading-relaxed max-w-2xl">
-                Hello! I'm Somnath Jha, an AI/ML Engineer with expertise in edge computing and embedded systems. 
+                Hello! {"I'm Somnath Jha"}, an AI/ML Engineer with expertise in edge computing and embedded systems. 
                 I have a proven track record of optimizing AI models for resource-constrained environments and 
                 building scalable AI solutions across the ML lifecycle - from data engineering to cloud deployment.
               </p>
@@ -368,7 +368,7 @@ const Portfolio = () => {
           <div className="max-w-md mx-auto">
             <div className="bg-gray-700/50 rounded-lg border border-gray-600 p-8 text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Contact Me</h3>
-              <p className="text-gray-400 mb-6">Let's discuss your next AI project</p>
+              <p className="text-gray-400 mb-6">{"Let's"} discuss your next AI project</p>
               <a 
                 href="mailto:somnath.jha.official@gmail.com"
                 className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg font-semibold transition-all duration-300 inline-block"
